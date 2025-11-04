@@ -13,6 +13,7 @@
 # limitations under the License.
 
 # [START gae_java11_helloworld_yaml]
+service: java-app
 runtime: java17
 instance_class: F2
 
@@ -30,4 +31,5 @@ handlers:
     script: auto
     secure: always
 # [END gae_java11_helloworld_yaml]
+
 
